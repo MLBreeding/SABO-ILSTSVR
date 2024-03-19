@@ -1,5 +1,4 @@
 import numpy as np
-from sklearn import preprocessing
 from sklearn.base import BaseEstimator, RegressorMixin 
 import KernelFunction as kf
 import Hyperplane1
@@ -36,11 +35,10 @@ class ILSTSVR(BaseEstimator, RegressorMixin):
         
         e=np.ones((r,1))
         
-        if(self.kernel_type==0): # no need to cal kernel
+        if(self.kernel_type==0):# no need to cal kernel
             H = np.hstack((X,e))
         else:
             H = np.zeros((r,r))
-            
             for i in range(r):
                 for j in range(r):
                     H[i][j] = kf.kernelfunction(self.kernel_type,X[i],X[j],self.kernel_param)

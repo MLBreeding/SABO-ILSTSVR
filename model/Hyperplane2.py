@@ -1,7 +1,6 @@
 import numpy as np
 
 from numpy import linalg
-from cvxopt import solvers,matrix
 
 
 def Hyperplane_2(H,Y,C2,C4,Epsi2,Kmax,Epsi0):

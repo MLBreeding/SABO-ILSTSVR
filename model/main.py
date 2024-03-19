@@ -7,8 +7,8 @@ from sklearn.metrics import mean_squared_error
 from Find_param import find_param
 
 
-# X = pd.read_csv("C:/.../.../genotype.csv", dtype=np.float32)
-# y = pd.read_csv("C:/.../.../phenotype.csv", dtype=np.float32)
+X = pd.read_csv("C:/.../.../genotype.csv", dtype=np.float32)
+y = pd.read_csv("C:/.../.../phenotype.csv", dtype=np.float32)
 
 X = np.array(X)
 y = np.array(y)
