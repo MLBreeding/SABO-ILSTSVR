@@ -14,7 +14,7 @@ You can **clone** this repository or **Download Zip** of this repository.
 ```
 conda create -n your_env_name python=3.9.18
 ```
-### install required packages
+### Install required packages
 
 ```
 pip install -r requirements.txt
