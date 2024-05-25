@@ -6,7 +6,7 @@ This a python tool for genomic prediction, which can predict the phenotypes of p
 
 ## How To Use It
 
-You can **clone** this repository or **Download Zip** of this repository.
+You can **Clone** this repository or **Download Zip** of this repository.
 
 
 ### Create conda virtual environment
